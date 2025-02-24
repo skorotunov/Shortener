@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shortener.Api", "Shortener.Api\Shortener.Api.csproj", "{A2880945-903B-494B-957C-6CF60132AA84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Items", "Items", "{5EBA23AA-DBEB-4F8A-AD0D-7C1F58A92C65}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		image.png = image.png
+		info.txt = info.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2880945-903B-494B-957C-6CF60132AA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2880945-903B-494B-957C-6CF60132AA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2880945-903B-494B-957C-6CF60132AA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2880945-903B-494B-957C-6CF60132AA84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

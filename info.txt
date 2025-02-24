@@ -1,0 +1,39 @@
+Functional requirements.
+MVP for authors
+1. URL creation and shortening:
+- Aithprs can create a shortened URL by providing a full URL.
+2. Link management:
+- Authors can view a list of their shortened URLs.
+3. Unique URL generation:
+- The system should ensure that each shortened URL is unique.
+4. User authentication:
+- Restrict access to authors only.
+5. URL redirection:
+- When a user clicks on a shortened URL, they should be redirected to the original URL.
+
+Non-functional requirements.
+1. Scalability:
+- The system should be able to handle a large number of URLs and users.
+2. Reliability and uptime:
+- Ensure high availability, minimal downtime and implement robust error handling.
+3. Performance:
+- The system should respond quickly to user requests with minimal latency.
+4. Cost-effectiveness:
+- Optimize resource usage to minimize costs and support on-demand scaling.
+5. User-friendly interface:
+- The system should have an intuitive and easy-to-use interface for authors.
+6. Maintainability:
+- The system should be easy to maintain and update.
+
+System design.
+Example shortened URL: https://short.ly/abc123
+1. How many URls created per second?
+- 1000 URLs per second.
+2. Read and write ratio.
+- 1000:1.
+3. Available characters.
+- 62 characters (a-z, A-Z, 0-9).
+4. URL length.
+- requests per year = 1000 * 60 * 60 * 24 * 365 = 31.5 billion.
+- possible combinations = 62^7 = 3.5 trillion.
+- length = 7.
